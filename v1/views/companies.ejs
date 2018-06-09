@@ -1,0 +1,17 @@
+<% include ../partials/header %>
+  <% for(let i =0; i < companies.length; i++) { %>
+  
+    <div>
+      <h4>
+        <div class="card-header">
+     <%= companies[i].name %>  
+        </div>    
+      </h4>
+      
+        <div class="card-body">
+      <img src="<%= companies[i].image %>" alt="">
+        </div>
+    </div>
+  
+ <% } %>
+<% include ../partials/footer %>
