@@ -1,7 +1,14 @@
 <% include ../partials/header %>
 
-<% comp.name %>
-<% comp.image %>
+<div>
+  <h1>
+<%= comp.name %>
+  </h1>
+</div>
 
-<p> <% comp.description %></p>
+<div>
+ <img src="<%= comp.image %>" alt=""></a>
+</div>
+
+<p> <%= comp.description %></p>
 <% include ../partials/footer %>

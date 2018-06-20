@@ -151,13 +151,16 @@ app.get('/companies/:id', (req,res)=>{
  let queries = [
     Company.findById(req.params.id)
   ];
-  
+
   Promise.all(queries).then(results =>{
+    console.log(results[0]);
+    
     res.render('show',{comp:results[0]})
+   
   }).catch(err =>{
   console.error('Fetching:',err)
 });
-});
+})
 
 
 
