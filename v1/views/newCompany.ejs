@@ -1,11 +1,14 @@
 <% include ../partials/header %>
-<h1>Create a new company</h1>
 
+<h1>Create a new company</h1>
 <div class="row">
 <form action="/companies" method="POST">
+<div class="row">
   <input class="form-control" type="text" name='name' placeholder='Company name'>
   <input class="form-control" type="text" name='logo' placeholder='Logo URL'>
+  <input class="form-control" type="text" name='description' placeholder='Description'>
   <input class="btn" "btn-lg" "btn-default" type="submit" value="Submit">
+  </div>
 </form>
  </div>
 <% include ../partials/footer %>

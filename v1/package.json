@@ -11,6 +11,9 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "jquery": "^3.3.1",
+    "jsdom": "^11.11.0",
+    "mongoose": "^5.1.5"
   }
 }
