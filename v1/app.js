@@ -56,23 +56,4 @@ app.post('/companies', (req, res)=>{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 app.listen(3000, console.log('the app is on'))
